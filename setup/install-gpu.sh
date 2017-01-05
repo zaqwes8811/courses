@@ -6,6 +6,8 @@ sudo apt-get --assume-yes install software-properties-common
 
 # fixme: кажется лучше ставить через *.run - поставились X'ы
 # или брать образ с кудой и ставить в него, не уверен что вышло нормально
+#
+# fixme: для последнего tf нужен образ cuda8
 wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_8.0.44-1_amd64.deb
 sudo dpkg -i cuda-repo-ubuntu1604_8.0.44-1_amd64.deb
 sudo apt-get update
