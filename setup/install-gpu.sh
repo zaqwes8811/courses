@@ -24,6 +24,8 @@ export PATH="$HOME/anaconda2/bin:$PATH"
 conda install -y bcolz
 conda upgrade -y --all
 
+# https://github.com/Theano/Theano/issues/4460
+# [lib]...
 pip install theano
 echo "[global]
 device = gpu
